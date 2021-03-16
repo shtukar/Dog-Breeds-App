@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dog breeds App</string>
+
+    <string name="blank" translatable="false" />
+    <string name="symbol_dot" translatable="false">•</string>
+
+    <string name="dog_breeds_title">Dog Breeds</string>
+
+    <string name="error_fetch_data_exception">Unable to fetch data</string>
+    <string name="error_no_dog_breeds_available">No dog breeds available</string>
+    <string name="error_no_dog_breed_images_available">No dog breed images available</string>
+</resources>

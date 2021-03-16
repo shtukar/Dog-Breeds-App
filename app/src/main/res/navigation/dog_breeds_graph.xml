@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dog_breeds_graph"
+    app:startDestination="@id/dogBreedsListFragment">
+
+    <fragment
+        android:id="@+id/dogBreedsListFragment"
+        android:name="com.gmail.shtukarrv.dogbreedsapp.presentation.ui.dog_breeds_list.DogBreedsListFragment"
+        android:label="Blank"
+        tools:layout="@layout/fragment_dog_breeds" />
+
+    <fragment
+        android:id="@+id/dogBreedImagesListFragment"
+        android:name="com.gmail.shtukarrv.dogbreedsapp.presentation.ui.dog_breed_images.DogBreedImagesListFragment"
+        android:label="Blank"
+        tools:layout="@layout/fragment_dog_breed_images" />
+
+</navigation>
